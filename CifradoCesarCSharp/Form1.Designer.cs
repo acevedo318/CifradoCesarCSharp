@@ -54,6 +54,7 @@
             resources.ApplyResources(this.btnCifrar, "btnCifrar");
             this.btnCifrar.Name = "btnCifrar";
             this.btnCifrar.UseVisualStyleBackColor = true;
+            this.btnCifrar.Click += new System.EventHandler(this.btnCifrar_Click);
             // 
             // panel1
             // 
@@ -67,6 +68,7 @@
             resources.ApplyResources(this.btnDescif, "btnDescif");
             this.btnDescif.Name = "btnDescif";
             this.btnDescif.UseVisualStyleBackColor = true;
+            this.btnDescif.Click += new System.EventHandler(this.btnDescif_Click);
             // 
             // richTextBoxCifrado
             // 

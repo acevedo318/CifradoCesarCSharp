@@ -20,12 +20,22 @@ namespace CifradoCesarCSharp
         //Prueba Git
         private void Form1_Load(object sender, EventArgs e)
         {
-
+          
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnCifrar_Click(object sender, EventArgs e)
+        {
+            richTextBoxCifrado.Text = CifradoCesar.CifrarCadena(textBox.Text);
+        }
+
+        private void btnDescif_Click(object sender, EventArgs e)
+        {
+            richTextBoxCifrado.Text = CifradoCesar.DecifrarCadena(textBox.Text);
         }
     }
 }
