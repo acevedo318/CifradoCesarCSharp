@@ -1,0 +1,9 @@
+H:\Proyectos\Trabajos\C#\CifradoCesarCSharp\CifradoCesarCSharp\bin\Debug\CifradoCesarCSharp.exe.config
+H:\Proyectos\Trabajos\C#\CifradoCesarCSharp\CifradoCesarCSharp\bin\Debug\CifradoCesarCSharp.exe
+H:\Proyectos\Trabajos\C#\CifradoCesarCSharp\CifradoCesarCSharp\bin\Debug\CifradoCesarCSharp.pdb
+H:\Proyectos\Trabajos\C#\CifradoCesarCSharp\CifradoCesarCSharp\obj\Debug\CifradoCesarCSharp.csprojResolveAssemblyReference.cache
+H:\Proyectos\Trabajos\C#\CifradoCesarCSharp\CifradoCesarCSharp\obj\Debug\CifradoCesarCSharp.Form1.resources
+H:\Proyectos\Trabajos\C#\CifradoCesarCSharp\CifradoCesarCSharp\obj\Debug\CifradoCesarCSharp.Properties.Resources.resources
+H:\Proyectos\Trabajos\C#\CifradoCesarCSharp\CifradoCesarCSharp\obj\Debug\CifradoCesarCSharp.csproj.GenerateResource.Cache
+H:\Proyectos\Trabajos\C#\CifradoCesarCSharp\CifradoCesarCSharp\obj\Debug\CifradoCesarCSharp.exe
+H:\Proyectos\Trabajos\C#\CifradoCesarCSharp\CifradoCesarCSharp\obj\Debug\CifradoCesarCSharp.pdb
