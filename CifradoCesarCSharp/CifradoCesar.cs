@@ -24,7 +24,7 @@ namespace CifradoCesarCSharp
             for (int i = 0; i < letras; i++)
             {
                 valorCaracter = (int)cadena[i];
-                ch[i] = (char)(valorCaracter + 3);
+                ch[i] = (char)(valorCaracter + 3*letras);
                 cifrado += ch[i];
             }
             return cifrado;
@@ -43,7 +43,7 @@ namespace CifradoCesarCSharp
             for (int i = 0; i < letras; i++)
             {
                 valorCaracter = (int)cadena[i];
-                ch[i] = (char)(valorCaracter - 3);
+                ch[i] = (char)(valorCaracter - 3*letras);
                 descifrado += ch[i];
             }
             return descifrado;
