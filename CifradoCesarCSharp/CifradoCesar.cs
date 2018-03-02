@@ -17,14 +17,14 @@ namespace CifradoCesarCSharp
         /// <returns></returns>
         public static String CifrarCadena(String text)
         {
-            int t, letras;
+            int valorCaracter, letras;
             string cadena = text,cifrado = "";
             letras = cadena.Length;
             char[] ch = new char[letras];
             for (int i = 0; i < letras; i++)
             {
-                t = (int)cadena[i];
-                ch[i] = (char)(t + 3);
+                valorCaracter = (int)cadena[i];
+                ch[i] = (char)(valorCaracter + 3);
                 cifrado += ch[i];
             }
             return cifrado;
@@ -36,14 +36,14 @@ namespace CifradoCesarCSharp
         /// <param name="textCifrado"></param>
         public static String DecifrarCadena(String textCifrado)
         {
-            int t, letras;
+            int valorCaracter, letras;
             string cadena = textCifrado, descifrado = "";
             letras = cadena.Length;
             char[] ch = new char[letras];
             for (int i = 0; i < letras; i++)
             {
-                t = (int)cadena[i];
-                ch[i] = (char)(t - 3);
+                valorCaracter = (int)cadena[i];
+                ch[i] = (char)(valorCaracter - 3);
                 descifrado += ch[i];
             }
             return descifrado;
